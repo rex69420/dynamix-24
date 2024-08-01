@@ -1,0 +1,80 @@
+{% extends "base.html" %} {% block content %}
+<div
+  class="Shop w-[1920px] h-[1080px] relative bg-gradient-to-r from-[#0c825b] via-neutral-100 to-neutral-100">
+  <div
+    class="Rectangle44 w-[1714px] h-[792px] left-[130px] top-[44px] absolute bg-gradient-to-tr from-[#0c825b] to-[#24321f] rounded-[50px]"></div>
+  <div
+    class="Rectangle45 w-[1391px] h-[792px] left-[453px] top-[44px] absolute bg-neutral-100"></div>
+  <div class="keyfeatures w-[1050px] left-[777px] top-[218px] absolute">
+    <span class="text-black text-[32px] font-extrabold font-Montserrat">
+      Key Features:
+      <br />
+    </span>
+    <span class="text-black text-[32px] font-normal font-Montserrat">
+      <br />
+    </span>
+    <ul
+      class="list-decimal pl-6 text-black text-[32px] font-normal font-Montserrat">
+      <li>
+        With a simple tap the “ring” can provide your essential medical
+        information including insurance ensuring that critical information is
+        accessible to doctors immediately in care of an emergency.
+      </li>
+      <br />
+      <li>
+        The "ring" continuously monitors key health metrics. This data is not
+        only available to you in real-time but is also automatically sent to
+        your doctor via the Vitalyx software's Vitals tab!
+      </li>
+    </ul>
+  </div>
+  <div
+    class="Ellipse119 w-[414px] h-[414px] left-[246px] top-[233px] absolute bg-[#d9d9d9] rounded-full shadow"></div>
+  <div
+    class="Ring left-[26px] top-[679px] absolute origin-top-left -rotate-90 text-center">
+    <span class="text-[#deffd2] text-[150px] font-bold font-GillSansUltrabold">
+      Ring.
+    </span>
+  </div>
+  <div class="Price6999 left-[1598px] top-[122px] absolute text-center">
+    <span class="text-black text-[32px] font-normal font-Montserrat">
+      Price:
+    </span>
+    <span class="text-black text-[32px] font-bold font-Montserrat">₹6999</span>
+  </div>
+  <img
+    class="Rrrr1 w-[355px] h-[355px] left-[465px] top-[210px] absolute origin-top-left rotate-[45deg]"
+    src="/static/img/ring.png" />
+  <div class="Back w-[184px] h-[72px] left-[46px] top-[854px] absolute">
+    <!-- <a href="#" onclick="history.go(-1)"> -->
+    <a href="#" onclick="var c=window.location.href,r=document.referrer;if(history.length>1&&r&&r!==c&&r!==c.split('#')[0]&&r!=='about:blank'){history.go(-1);}else{window.location.href='/';}" class="link">
+      <div
+        class="Rectangle33 w-[184px] h-[72px] left-0 top-0 absolute bg-black/20 rounded-[30px]"></div>
+      <div
+        class="Back left-[82px] top-[21px] absolute text-[#deffd2] text-2xl font-bold font-Montserrat">
+        Back
+      </div>
+      <div
+        class="SignInCircle w-[33px] h-[33px] left-[33px] top-[21px] absolute rounded-[30px]">
+        <img src="/static/img/shop_back.png" />
+      </div>
+    </a>
+  </div>
+  <div class="Button w-36 h-[59px] left-[1725px] top-[861px] absolute">
+    <a href="/patient/shop/payment">
+      <div
+        class="Bg w-36 h-[59px] left-0 top-0 absolute bg-gradient-to-r from-[#0c825b] to-[#021c13] rounded-[30px]"></div>
+      <div
+        class="Pay left-[30px] top-[12.5px] absolute text-center text-[#deffd2] text-2xl font-semibold font-Poppins">
+        Buy
+      </div>
+      <div class="Money w-[30px] h-[30px] left-[90px] top-[14px] absolute">
+        <div
+          class="Rectangle25 w-[22.50px] h-[15px] left-[3.75px] top-[7.50px] absolute rounded-sm border-2 border-[#deffd2]"></div>
+        <div
+          class="Ellipse118 w-[7.50px] h-[7.50px] left-[11.25px] top-[11.25px] absolute rounded-full border-2 border-[#deffd2]"></div>
+      </div>
+    </a>
+  </div>
+</div>
+{% endblock %}

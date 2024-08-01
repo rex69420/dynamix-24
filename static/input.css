@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "GillSansUltraBold";
+    src: url("/static/fonts/GillSansUltraBold.ttf") format("truetype");
+}

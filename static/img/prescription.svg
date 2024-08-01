@@ -1,0 +1,20 @@
+<svg width="90" height="115" viewBox="0 0 90 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="file-medical-solid 1" clip-path="url(#clip0_201_105)" filter="url(#filter0_d_201_105)">
+<path id="Vector" d="M21.6667 1C15.2318 1 10 6.3252 10 12.875V84.125C10 90.6748 15.2318 96 21.6667 96H68.3333C74.7682 96 80 90.6748 80 84.125V30.6875H56.6667C53.4401 30.6875 50.8333 28.0342 50.8333 24.75V1H21.6667ZM56.6667 1V24.75H80L56.6667 1ZM39.1667 45.5312C39.1667 43.8984 40.4792 42.5625 42.0833 42.5625H47.9167C49.5208 42.5625 50.8333 43.8984 50.8333 45.5312V54.4375H59.5833C61.1875 54.4375 62.5 55.7734 62.5 57.4062V63.3438C62.5 64.9766 61.1875 66.3125 59.5833 66.3125H50.8333V75.2188C50.8333 76.8516 49.5208 78.1875 47.9167 78.1875H42.0833C40.4792 78.1875 39.1667 76.8516 39.1667 75.2188V66.3125H30.4167C28.8125 66.3125 27.5 64.9766 27.5 63.3438V57.4062C27.5 55.7734 28.8125 54.4375 30.4167 54.4375H39.1667V45.5312Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_201_105" x="0" y="0" width="90" height="115" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="9"/>
+<feGaussianBlur stdDeviation="5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_201_105"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_201_105" result="shape"/>
+</filter>
+<clipPath id="clip0_201_105">
+<rect width="70" height="95" fill="white" transform="translate(10 1)"/>
+</clipPath>
+</defs>
+</svg>

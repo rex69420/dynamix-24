@@ -1,0 +1,166 @@
+{% extends "base.html" %} {% block content %}
+<div class="YourActivity w-[1920px] h-[1080px] relative bg-white">
+  <img
+    class="Redlogo1 w-[498px] h-[1000px] left-[1422px] top-0 absolute opacity-50 blur-[10px]"
+    src="/static/img/activity_logo.png" />
+  <div class="Back w-[184px] h-[72px] left-[58px] top-[815px] absolute">
+    <!-- <a href="#" onclick="history.go(-1)"> -->
+    <a
+      href="#"
+      onclick="var c=window.location.href,r=document.referrer;if(history.length>1&&r&&r!==c&&r!==c.split('#')[0]&&r!=='about:blank'){history.go(-1);}else{window.location.href='/';}"
+      class="link">
+      <div
+        class="Rectangle33 w-[184px] h-[72px] left-0 top-0 absolute bg-gradient-to-r from-[#0c825b] to-[#24321f] rounded-[30px]"></div>
+      <div
+        class="Back left-[82px] top-[21px] absolute text-[#deffd2] text-2xl font-bold font-['Montserrat']">
+        Back
+      </div>
+      <div
+        class="SignInCircle w-[33px] h-[33px] left-[30px] top-[21px] absolute origin-top-left rounded-[30px]">
+        <img src="/static/img/patient_logout_circle.png" />
+      </div>
+    </a>
+  </div>
+  <div
+    class="Activity w-[188px] h-[55px] left-[58px] top-[46px] absolute text-[#1e1f2e] text-5xl font-semibold font-['Poppins']">
+    Activity
+  </div>
+  <div class="Booking3 w-[1540px] h-[132px] left-[196px] top-[605px] absolute">
+    <div
+      class="Rectangle7 w-[1540px] h-[132px] left-0 top-0 absolute bg-gradient-to-l from-[#24321f] to-[#0c825b] rounded-[20px] shadow"></div>
+    <div class="Pres w-[126px] h-[81px] left-[1242px] top-[35px] absolute">
+      <a href="/patient/prescription">
+        <div
+          class="FileMedicalSolid1 w-[40px] h-[40px] left-[45px] top-[-10px] absolute shadow">
+          <img
+            src="/static/img/file-medical-solid.svg"
+            style="filter: invert(1)" />
+        </div>
+        <div
+          class="Prescription left-0 top-[57px] absolute text-center text-[#deffd2] text-xl font-semibold font-['Montserrat']">
+          Prescription
+        </div>
+      </a>
+    </div>
+    <div
+      class="DrShauntyMurp w-[252px] h-7 left-[158px] top-[16px] absolute text-[#deffd2] text-2xl font-semibold font-['Poppins']">
+      Dr. Shaunty Murp
+    </div>
+    <div
+      class="SanJoseStBon w-[229px] h-[27px] left-[158px] top-[83px] absolute text-white text-2xl font-normal font-['Poppins']">
+      San Jose St. Bonav
+    </div>
+    <div class="Rebook w-20 h-20 left-[1432px] top-[36px] absolute">
+      <a href="/patient/rebook">
+        <div
+          class="RotateRightSolid1 w-[41px] h-[41px] left-[20px] top-[-4px] absolute flex-col justify-start items-start inline-flex">
+          <img src="/static/img/rebook.svg" style="filter: invert(1)" />
+        </div>
+        <div
+          class="Rebook left-0 top-[56px] absolute text-center text-[#deffd2] text-xl font-semibold font-['Montserrat']">
+          Rebook
+        </div>
+      </a>
+    </div>
+    <div class="MaskGroup w-28 h-28 left-[15px] top-[10px] absolute">
+      <div
+        class="Rectangle8 w-28 h-28 left-0 top-0 absolute bg-[#d9d9d9] rounded-[14px]"></div>
+      <div
+        class="Image7 w-[157.59px] h-[159.70px] left-[-22.80px] top-[-4.15px] absolute"></div>
+      <img
+        class="Image6 w-28 h-28 left-0 top-0 absolute rounded-lg"
+        src="/static/img/shaunty_activity.png" />
+    </div>
+  </div>
+  <div class="Booking2 w-[1540px] h-[132px] left-[196px] top-[393px] absolute">
+    <div
+      class="Rectangle7 w-[1540px] h-[132px] left-0 top-0 absolute bg-gradient-to-l from-[#24321f] to-[#0c825b] rounded-[20px] shadow"></div>
+    <div class="Pres w-[126px] h-[81px] left-[1242px] top-[35px] absolute">
+      <a href="/patient/prescription">
+        <div
+          class="FileMedicalSolid1 w-[40px] h-[40px] left-[45px] top-[-10px] absolute shadow">
+          <img
+            src="/static/img/file-medical-solid.svg"
+            style="filter: invert(1)" />
+        </div>
+        <div
+          class="Prescription left-0 top-[57px] absolute text-center text-[#deffd2] text-xl font-semibold font-['Montserrat']">
+          Prescription
+        </div>
+      </a>
+    </div>
+    <div
+      class="DrWaltWhiter w-[252px] h-7 left-[158px] top-[16px] absolute text-[#deffd2] text-2xl font-semibold font-['Poppins']">
+      Dr. Walt Whiter
+    </div>
+    <div
+      class="LovelaceMedical w-[238px] h-[27px] left-[158px] top-[83px] absolute text-white text-2xl font-normal font-['Poppins']">
+      Lovelace Medical
+    </div>
+    <div class="Rebook w-20 h-20 left-[1432px] top-[36px] absolute">
+      <a href="/patient/rebook">
+        <div
+          class="RotateRightSolid1 w-[41px] h-[41px] left-[20px] top-[-4px] absolute flex-col justify-start items-start inline-flex">
+          <img src="/static/img/rebook.svg" style="filter: invert(1)" />
+        </div>
+        <div
+          class="Rebook left-0 top-[56px] absolute text-center text-[#deffd2] text-xl font-semibold font-['Montserrat']">
+          Rebook
+        </div>
+      </a>
+    </div>
+    <div class="MaskGroup w-28 h-28 left-[15px] top-[11px] absolute">
+      <div
+        class="Rectangle8 w-28 h-28 left-0 top-0 absolute bg-[#d9d9d9] rounded-[14px]"></div>
+      <img
+        class="Image5 w-28 h-28 left-0 top-0 absolute rounded-lg"
+        src="/static/img/whiter_activity.png" />
+    </div>
+  </div>
+  <div class="Booking1 w-[1540px] h-[132px] left-[196px] top-[181px] absolute">
+    <div
+      class="Rectangle7 w-[1540px] h-[132px] left-0 top-0 absolute bg-gradient-to-l from-[#24321f] to-[#0c825b] rounded-[20px] shadow"></div>
+    <div class="Pres w-[126px] h-[81px] left-[1242px] top-[35px] absolute">
+      <a href="/patient/prescription">
+        <div
+          class="FileMedicalSolid1 w-[40px] h-[40px] left-[45px] top-[-10px] absolute shadow">
+          <img
+            src="/static/img/file-medical-solid.svg"
+            style="filter: invert(1)" />
+        </div>
+        <div
+          class="Prescription left-0 top-[57px] absolute text-center text-[#deffd2] text-xl font-semibold font-['Montserrat']">
+          Prescription
+        </div>
+      </a>
+    </div>
+    <div
+      class="DrShridharKaushik w-[252px] h-7 left-[158px] top-[16px] absolute text-[#deffd2] text-2xl font-semibold font-['Poppins']">
+      Dr. Shridhar Kaushik
+    </div>
+    <div
+      class="AmityHealthcare w-52 h-[27px] left-[158px] top-[83px] absolute text-white text-2xl font-normal font-['Poppins']">
+      Amity Healthcare
+    </div>
+    <div class="Rebook w-20 h-20 left-[1432px] top-[36px] absolute">
+      <a href="/patient/rebook">
+        <div
+          class="RotateRightSolid1 w-[41px] h-[41px] left-[20px] top-[-4px] absolute flex-col justify-start items-start inline-flex">
+          <img src="/static/img/rebook.svg" style="filter: invert(1)" />
+        </div>
+        <div
+          class="Rebook left-0 top-[56px] absolute text-center text-[#deffd2] text-xl font-semibold font-['Montserrat']">
+          Rebook
+        </div>
+      </a>
+    </div>
+    <div class="MaskGroup w-28 h-28 left-[15px] top-[11px] absolute">
+      <div
+        class="Rectangle8 w-28 h-28 left-0 top-0 absolute bg-[#d9d9d9] rounded-[14px]"></div>
+      <img
+        class="Image7 w-28 h-28 left-0 top-0 absolute rounded-lg"
+        src="/static/img/shridhar_activity.png" />
+    </div>
+  </div>
+</div>
+{% endblock %}

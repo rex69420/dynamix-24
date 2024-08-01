@@ -1,0 +1,107 @@
+{% extends "base.html" %} {% block content %}
+<style>
+  @import "https://fonts.googleapis.com/css?family=VT323";
+
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  a {
+    color: #e0e2f4;
+  }
+
+  body,
+  p {
+    font: normal 30px/1.5rem "VT323", monospace;
+  }
+
+  h1 {
+    font: normal 5rem/1.2em "VT323", monospace;
+  }
+
+  h2 {
+    font: normal 4rem/1.25em "VT323", monospace;
+  }
+
+  h3 {
+    font: lighter 2.5rem/1.25em "VT323", monospace;
+  }
+
+  h4 {
+    font: lighter 2rem/1.25em "VT323", monospace;
+  }
+
+  body {
+    background: #0414a7;
+  }
+
+  .container {
+    width: 92.5%;
+    margin: auto;
+    max-width: 700px;
+  }
+
+  .bsod {
+    padding-top: 12.5%;
+  }
+
+  .bsod .neg {
+    text-align: center;
+    color: #0414a7;
+  }
+
+  .bsod .neg .bg {
+    background: #aaa;
+    padding: 0 17.5px 2.5px 15px;
+  }
+
+  .bsod .title {
+    margin-bottom: 62.5px;
+  }
+
+  .bsod .nav {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .bsod .nav .link {
+    text-decoration: none;
+    padding: 0 12px 2.5px 10px;
+  }
+
+  .bsod .nav .link:hover,
+  .bsod .nav .link:focus {
+    background: #aaa;
+    color: #0414a7;
+  }
+
+  .link-underline {
+    text-decoration: underline;
+  }
+</style>
+
+<html>
+  <main class="bsod container">
+    <h1 class="neg title"><span class="bg">Error - 501</span></h1>
+    <p>An error has occured, we have not implemented this yet! To continue, either -</p>
+    <p>
+      * Return to the last page, or
+      <br />
+      * Check out the
+      <a href="https://www.figma.com/design/xYfLEpVxK3JpXcm221lcRi/website?m=auto&t=N2AhW7tmeV36TkMm-1"class="link-underline">figma file</a> to see what should have been here!
+    </p>
+    <nav class="nav">
+      <!-- <a href="#" onclick="history.go(-1)" class="link">back</a> -->
+      <a href="#" onclick="var c=window.location.href,r=document.referrer;if(history.length>1&&r&&r!==c&&r!==c.split('#')[0]&&r!=='about:blank'){history.go(-1);}else{window.location.href='/';}" class="link">back</a>
+      &nbsp;|&nbsp;
+      <a
+        href="https://www.figma.com/design/xYfLEpVxK3JpXcm221lcRi/website?m=auto&t=N2AhW7tmeV36TkMm-1"
+        class="link">
+        figma
+      </a>
+    </nav>
+  </main>
+</html>
+{% endblock %}

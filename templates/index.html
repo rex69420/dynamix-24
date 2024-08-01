@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <link
+      href="/static/img/logo_dark.png"
+      rel="icon"
+      media="(prefers-color-scheme: light)" />
+    <link
+      href="/static/img/logo_light.png"
+      rel="icon"
+      media="(prefers-color-scheme: dark)" />
+    <title>Vitalyx</title>
+    <style>
+      #top-right {
+        box-shadow: -10px 15px 30px 0px rgba(0, 0, 0, 0.25);
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 35%;
+        height: 50%;
+        border: none;
+      }
+      #bottom-right {
+        box-shadow: -10px 15px 30px 0px rgba(0, 0, 0, 0.25);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 35%;
+        height: 50%;
+        border: none;
+      }
+
+      #gradient-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(/static/img/index2_gradient.png) lightgray 50% / cover
+          no-repeat;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      #center-title-text {
+        position: absolute;
+        top: 45%;
+        left: 31%;
+        transform: translate(-50%, -50%);
+      }
+
+      #sub-title-text {
+        color: #000;
+        font-family: "Montserrat", sans-serif;
+        top: 51.75%;
+        left: 15.5%;
+        position: absolute;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: normal;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="gradient-container"></div>
+    <iframe id="top-right" src="/static/patient.html"></iframe>
+    <iframe id="bottom-right" src="/static/doctor.html"></iframe>
+    <div id="center-title-text">
+      <!-- <p>Vitalyx</p> -->
+      <img src="/static/img/logo_text2.png" alt="Vitalyx" />
+    </div>
+    <div id="sub-title-text">
+      <p>
+        The biggest, centralized platform for
+        <br />
+        Hospitals. Join today!
+      </p>
+    </div>
+  </body>
+</html>

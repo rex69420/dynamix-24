@@ -1,0 +1,96 @@
+{% extends "base.html" %} {% block content %}
+<div class="Dashboardpatients w-[1920px] h-[1080px] relative bg-neutral-100">
+  <div
+    class="Vitalyx w-[271px] h-[59px] left-[58px] top-[49px] absolute text-[#24321f]/50 text-[64px] font-bold font-FiraMono">
+    Vitalyx
+  </div>
+  <div class="Back w-[184px] h-[72px] left-[58px] top-[815px] absolute">
+    <a href="/logout">
+      <div
+        class="Rectangle33 w-[184px] h-[72px] left-0 top-0 absolute bg-gradient-to-r from-[#0c825b] to-[#24321f] rounded-[30px]"></div>
+      <div
+        class="Back left-[72px] top-[21px] absolute text-[#deffd2] text-2xl font-bold font-Montserrat">
+        Logout
+      </div>
+    </a>
+    <div
+      class="SignInCircle w-[33px] h-[33px] left-[30px] top-[21px] absolute origin-top-left">
+      <img src="/static/img/patient_logout_circle.png" />
+    </div>
+  </div>
+  <div class="Cards w-[801px] h-[667.19px] left-[1000px] top-[150px] absolute">
+    <div class="Go w-[307px] h-[279.19px] left-0 top-0 absolute">
+      <a href="/patient/activity">
+        <div
+          class="Bgrectangle w-[307px] h-[279.19px] left-[307px] top-[279.19px] absolute origin-top-left -rotate-180 bg-gradient-to-tr from-[#24321f] to-[#0c825b] rounded-[30px] shadow"></div>
+        <div
+          class="Activity1 w-[88px] h-[90px] left-[109px] top-[77px] absolute">
+          <img src="/static/img/patientinfo.svg" />
+        </div>
+        <div
+          class="PatientInfo w-[188px] h-9 left-[59px] top-[192px] absolute text-center text-[#deffd2] text-2xl font-semibold font-Montserrat">
+          Your Activity
+        </div>
+      </a>
+    </div>
+    <div class="Go w-[307px] h-[279.19px] left-[493px] top-[-0px] absolute">
+      <a href="/patient/appointment">
+        <div
+          class="Bgrectangle w-[307px] h-[279.19px] left-[307px] top-[279.19px] absolute origin-top-left -rotate-180 bg-gradient-to-tr from-[#24321f] to-[#0c825b] rounded-[30px] shadow"></div>
+        <div
+          class="CalendarCheckRegular1 w-[89px] h-[102px] left-[111px] top-[65px] absolute">
+          <img src="/static/img/schedule.svg" />
+        </div>
+        <div
+          class="YourSchedule w-60 h-9 left-[36px] top-[192px] absolute text-center text-[#deffd2] text-2xl font-semibold font-Montserrat">
+          Book Appointment
+        </div>
+      </a>
+    </div>
+    <div class="Go w-[307px] h-[279.19px] left-0 top-[388px] absolute">
+      <a href="/patient/shop">
+        <div
+          class="Bgrectangle w-[307px] h-[279.19px] left-[307px] top-[279.19px] absolute origin-top-left -rotate-180 bg-gradient-to-tr from-[#24321f] to-[#0c825b] rounded-[30px] shadow"></div>
+        <div
+          class="FileMedicalSolid1 w-[85px] h-[95px] left-[110px] top-[63px] absolute">
+          <img
+            src="/static/img/bag-shopping-solid.svg"
+            style="filter: invert(1)" />
+        </div>
+        <div
+          class="Prescription w-[155px] h-9 left-[75px] top-[192px] absolute text-center text-[#deffd2] text-2xl font-semibold font-Montserrat">
+          Shop
+        </div>
+      </a>
+    </div>
+    <div class="Go w-[307px] h-[279.19px] left-[494px] top-[387px] absolute">
+      <a href="/patient/medicalid">
+        <div
+          class="Bgrectangle w-[307px] h-[279.19px] left-[307px] top-[279.19px] absolute origin-top-left -rotate-180 bg-gradient-to-tr from-[#24321f] to-[#0c825b] rounded-[30px] shadow"></div>
+        <div
+          class="MedicalId w-[152px] h-9 left-[77px] top-[192px] absolute text-center text-[#deffd2] text-2xl font-semibold font-Montserrat">
+          Medical ID
+        </div>
+        <div
+          class="AsteriskSolid1 w-[99px] h-[97px] left-[105px] top-[61px] absolute">
+          <img src="/static/img/medicalid.svg" />
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="Pfp left-[185px] top-[185px] absolute">
+    <div class="WelcomeDrWhiter left-0 top-[436px] absolute text-center">
+      <span
+        class="text-[#156243] text-[55px] font-bold font-Montserrat text-nowrap">
+        Welcome,
+        <span class="font-DancingScript text-[64px]">{{username}}</span>
+      </span>
+    </div>
+    <div class="MaskGroup w-[400px] h-[400px] left-[120px] top-[15px] absolute">
+      <img
+        class="Image5 w-[400px] h-[400px] left-[-38px] top-0 absolute rounded-full"
+        src="/static/img/patient_pfp.png" />
+    </div>
+  </div>
+</div>
+{% endblock %}

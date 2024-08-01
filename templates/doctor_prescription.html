@@ -1,0 +1,65 @@
+{% extends "base.html" %} {% block content %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script>
+  function download() {
+    html2canvas(document.querySelector(".GenPresc"), {
+      width: 1920,
+      height: 950,
+      scrollX: 0,
+      scrollY: 0,
+    }).then((canvas) => {
+      const link = document.createElement("a");
+      link.href = canvas.toDataURL("image/png");
+      link.download = "prescription.png";
+      link.click();
+    });
+  }
+</script>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-variant: normal;
+  }
+</style>
+
+<div class="GenPresc w-[1920px] h-[1080px] relative bg-[#F5F5F5]">
+  <img
+    class="Bg w-[1920px] h-[1080px] left-0 top-0 absolute"
+    src="/static/img/presc_bg.png" />
+  <button
+    class="Download w-[253px] h-[72px] left-[1607px] top-[836px] absolute"
+    onclick="download()">
+    <div
+      class="Rectangle33 w-[253px] h-[72px] left-0 top-0 absolute bg-gradient-to-l from-[#ff0000] to-[#a73131] rounded-[30px]"></div>
+    <div
+      class="Update left-[27px] top-[21px] absolute text-[#ffd0d0] text-2xl font-bold font-Montserrat">
+      Download
+    </div>
+    <div
+      class="DownloadSolid1 w-[38px] h-[38px] left-[184px] top-[12px] absolute"></div>
+  </button>
+  <div
+    class="DrWhiter left-[520px] top-[82px] absolute text-black text-[32px] font-normal font-Poppins">
+    Dr. Whiter
+  </div>
+  <div
+    class="LovelaceMedical left-[536px] top-[139px] absolute text-black text-[32px] font-normal font-Poppins">
+    Lovelace Medical
+  </div>
+  <div
+    class="MrLendrickKumar left-[1426px] top-[82px] absolute text-black text-[32px] font-normal font-Poppins">
+    Mr. Lendrick Kumar
+  </div>
+  <div
+    class="left-[1226px] top-[139px] absolute text-black text-[32px] font-normal font-Poppins">
+    17
+  </div>
+  <div
+    class="092001 left-[1238px] top-[196px] absolute text-black text-[32px] font-normal font-Poppins">
+    11/09/2001
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,91 @@
+{% extends "base.html" %} {% block content %}
+<div class="LoginPatient w-[1920px] h-[1080px] relative bg-neutral-100">
+  <form method="POST" action="/patient/login">
+    <img
+      class="Logo3 w-[873px] h-[1000px] left-0 top-0 absolute opacity-50 blur-[10px]"
+      src="/static/img/patient_login_logo.png" />
+    <div
+      class="TitleBox w-[622.09px] h-[225px] left-[76px] top-[238px] absolute">
+      <div
+        class="Rectangle32 w-[622px] h-[225px] left-0 top-0 absolute bg-gradient-to-r from-[#0c825b] to-[#24321f] rounded-[30px]"></div>
+      <div
+        class="LoginEnterYourCredentialsToAccessYourAccount w-[595.09px] left-[27px] top-[15px] absolute">
+        <span class="text-[#deffd2] text-[64px] font-bold font-Montserrat">
+          Login
+          <br />
+        </span>
+        <span
+          class="text-[#3dffbb] text-2xl font-medium font-Montserrat"></span>
+        <span class="text-[#deffd2] text-2xl font-medium font-Montserrat">
+          Enter your credentials to access your account!
+        </span>
+      </div>
+    </div>
+    <div class="SignUpButton w-[573px] left-[1152px] top-[288px] absolute">
+      <div class="Type w-[573px] h-[287px] left-0 top-0 absolute">
+        <div
+          class="Password w-[567px] h-[104px] left-[3px] top-[183px] absolute">
+          <div
+            class="Password w-[154px] h-[35.77px] left-0 top-0 absolute text-[#070705]/75 text-[29px] font-medium font-Montserrat">
+            Password
+          </div>
+          <div
+            class="Rectangle25 w-[559px] h-[60.25px] left-0 top-[43.75px] absolute mix-blend-overlay bg-[#d8d6c8] rounded-[15px] shadow"></div>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            class="outline-none bg-transparent w-[559px] h-[27px] left-[10px] top-[60px] absolute text-black/50 text-xl font-normal font-Montserrat tracking-widest"
+            placeholder="********" />
+        </div>
+        <div class="Email w-[573px] h-[105.32px] left-0 top-0 absolute">
+          <div
+            class="Rectangle24 w-[559px] h-[60.25px] left-0 top-[45.07px] absolute mix-blend-overlay bg-[#d8d6c8] rounded-[15px] shadow"></div>
+          <div
+            class="Email w-24 h-[35.77px] left-[3px] top-0 absolute text-[#070705]/75 text-[29px] font-medium font-Montserrat">
+            Email
+          </div>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="bg-transparent outline-none NotlikeusGmailCom w-[562px] h-7 left-[11px] top-[62px] absolute text-black/50 text-xl font-normal font-Montserrat tracking-widest"
+            placeholder="notlikeus@gmail.com" />
+        </div>
+      </div>
+      <div class="DonTHaveAnAccountSignUp left-[127px] top-[330px] absolute">
+        <span class="text-black text-xl font-normal font-Montserrat">
+          Don't have an account?
+        </span>
+        <span class="text-[#1446fb] text-xl font-normal font-Montserrat"></span>
+        <a href="/patient/register">
+          <span
+            class="text-[#1446fb] text-xl font-normal font-Montserrat underline">
+            Sign up
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="Vitalyx w-[271px] h-[59px] left-[50px] top-[36px] absolute text-[#24321f]/50 text-[64px] font-bold font-FiraMono">
+      Vitalyx
+    </div>
+    <div
+      class="WelcomeBack left-[1177px] top-[98px] absolute text-[#0c825b] text-[64px] font-bold font-Montserrat">
+      Welcome Back!
+    </div>
+    <button
+      class="Submit w-[184px] h-[72px] left-[1633px] top-[781px] absolute">
+      <div
+        class="Rectangle33 w-[184px] h-[72px] left-0 top-0 absolute bg-gradient-to-r from-[#0c825b] to-[#24321f] rounded-[30px]"></div>
+      <div class="SignInCircle w-6 h-6 left-[137px] top-[24px] absolute">
+        <img class="Vector" src="/static/img/login_signin_circle.png" />
+      </div>
+      <div
+        class="Submit left-[21px] top-[22px] absolute text-[#deffd2] text-2xl font-bold font-Montserrat">
+        Submit
+      </div>
+    </button>
+  </form>
+</div>
+{% endblock %}

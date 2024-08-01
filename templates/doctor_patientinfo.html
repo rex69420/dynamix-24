@@ -1,0 +1,234 @@
+{% extends "base.html" %} {% block content %}
+<div class="PatientInfo w-[1920px] h-[1080px] relative bg-neutral-100">
+  <div
+    class="Vitalyx w-[271px] h-[59px] left-[58px] top-[49px] absolute text-[#24321f]/50 text-[64px] font-bold font-['Fira Mono']">
+    Vitalyx
+  </div>
+  <div class="Back w-[184px] h-[72px] left-[58px] top-[815px] absolute">
+    <a
+      href="#"
+      onclick="var c=window.location.href,r=document.referrer;if(history.length>1&&r&&r!==c&&r!==c.split('#')[0]&&r!=='about:blank'){history.go(-1);}else{window.location.href='/';}"
+      class="link">
+      <div
+        class="Rectangle33 w-[184px] h-[72px] left-0 top-0 absolute bg-gradient-to-r from-[#ff0000] to-[#a73131] rounded-[30px]"></div>
+      <div
+        class="Back left-[82px] top-[21px] absolute text-[#ffd0d0] text-2xl font-bold font-['Montserrat']">
+        Back
+      </div>
+      <div
+        class="SignInCirclew-[33px] h-[33px] left-[30px] top-[21px] absolute origin-top-left">
+        <img src="/static/img/patient_logout_circle.png" />
+      </div>
+    </a>
+  </div>
+  <div class="Patients w-[1697px] h-[560px] left-[113px] top-[195px] absolute">
+    <div
+      class="Patient4 w-[350px] h-[560px] left-[1347px] top-0 absolute bg-gradient-to-tr from-[#a73131] to-[#ff0000] rounded-[30px] shadow border-4 border-neutral-100/30">
+      <div
+        class="LassiPinkman left-[86px] top-[226px] absolute text-center text-[#ffd0d0] text-2xl font-bold font-['Poppins']">
+        Lassi Pinkman
+      </div>
+      <img
+        class="Lassi w-[175px] h-[175px] left-[88px] top-[40px] absolute rounded-[320px] shadow"
+        src="/static/img/lassi_patient.png" />
+      <div
+        class="Age left-[38px] top-[283px] absolute text-[#ffd0d0] text-xl font-medium font-['Poppins']">
+        Age: 43
+      </div>
+      <div class="Age left-[38px] top-[322px] absolute">
+        <span class="text-[#ffd0d0] text-xl font-medium font-['Poppins']">
+          Date:
+        </span>
+        <span class="text-[#ffd0d0] text-xl font-semibold font-['Poppins']">
+          29/8/2024
+        </span>
+        <span
+          class="text-[#ffd0d0] text-xl font-medium font-['Poppins']"></span>
+      </div>
+      <div
+        class="Age left-[38px] top-[361px] absolute text-[#ffd0d0] text-xl font-medium font-['Poppins']">
+        Time: 11:00 AM
+      </div>
+      <div
+        class="Submit w-[111px] h-[43.43px] left-[202px] top-[477px] absolute">
+        <div
+          class="Rectangle33 w-[111px] h-[43.43px] left-0 top-0 absolute bg-[#ffff00]/0 rounded-[15px] border-2 border-neutral-100"></div>
+        <a href="/patient/vitals">
+          <div
+            class="SignInCircle w-[14.48px] h-[14.48px] left-[80.88px] top-[15.36px] absolute rounded-[15px] rotate-180">
+            <img src="/static/img/patient_logout_circle.png" />
+          </div>
+          <div
+            class="Vitals w-[62px] h-[22px] left-[12px] top-[10px] absolute text-[#ffd0d0] text-xl font-bold font-['Montserrat']">
+            Vitals
+          </div>
+        </a>
+      </div>
+    </div>
+    <div
+      class="Patient3 w-[350px] h-[560px] left-[897px] top-0 absolute bg-gradient-to-tr from-[#a73131] to-[#ff0000] rounded-[30px] shadow border-4 border-neutral-100/30">
+      <div
+        class="Arnav left-[137px] top-[226px] absolute text-center text-[#ffd0d0] text-2xl font-bold font-['Poppins']">
+        Arnav
+      </div>
+      <div class="Arnav w-[175px] h-[175px] left-[88px] top-[40px] absolute">
+        <div
+          class="Ellipse51 w-[175px] h-[175px] left-0 top-0 absolute bg-[#d9d9d9] rounded-full"></div>
+        <img
+          class="14194577720530997816658775550837384N1 w-[175px] h-[175px] left-0 top-0 absolute rounded-[320px]"
+          src="/static/img/arnav_patient.png" />
+      </div>
+      <div class="Age left-[38px] top-[283px] absolute">
+        <span class="text-[#ffd0d0] text-xl font-medium font-['Poppins']">
+          Age:
+        </span>
+        <span class="text-[#ffd0d0] text-xl font-semibold font-['Poppins']">
+          16
+        </span>
+      </div>
+      <div class="Age left-[38px] top-[322px] absolute">
+        <span class="text-[#ffd0d0] text-xl font-medium font-['Poppins']">
+          Date:
+        </span>
+        <span class="text-[#ffd0d0] text-xl font-semibold font-['Poppins']">
+          28/8/2024
+        </span>
+        <span
+          class="text-[#ffd0d0] text-xl font-medium font-['Poppins']"></span>
+      </div>
+      <div
+        class="Age left-[38px] top-[361px] absolute text-[#ffd0d0] text-xl font-medium font-['Poppins']">
+        Time: 2:00 PM
+      </div>
+      <div
+        class="Submit w-[111px] h-[43.43px] left-[202px] top-[477px] absolute">
+        <div
+          class="Rectangle33 w-[111px] h-[43.43px] left-0 top-0 absolute bg-[#ffff00]/0 rounded-[15px] border-2 border-neutral-100"></div>
+        <a href="/patient/vitals">
+          <div
+            class="SignInCircle w-[14.48px] h-[14.48px] left-[80.88px] top-[15.36px] absolute rounded-[15px] rotate-180">
+            <img src="/static/img/patient_logout_circle.png" />
+          </div>
+          <div
+            class="Vitals w-[62px] h-[22px] left-[12px] top-[10px] absolute text-[#ffd0d0] text-xl font-bold font-['Montserrat']">
+            Vitals
+          </div>
+        </a>
+      </div>
+    </div>
+    <div
+      class="Patient2 w-[350px] h-[560px] left-[447px] top-0 absolute bg-gradient-to-tr from-[#a73131] to-[#ff0000] rounded-[30px] shadow border-4 border-neutral-100/30">
+      <div
+        class="Kabir left-[142px] top-[226px] absolute text-center text-[#ffd0d0] text-2xl font-bold font-['Poppins']">
+        Kabir
+      </div>
+      <div class="Kabir w-[175px] h-[175px] left-[88px] top-[40px] absolute">
+        <div
+          class="Ellipse50 w-[175px] h-[175px] left-0 top-0 absolute bg-[#d9d9d9] rounded-full"></div>
+        <img
+          class="10201496228558414423883027026919621N1 w-[175px] h-[175px] left-0 top-0 absolute rounded-[320px]"
+          src="/static/img/kabir_patient.png" />
+      </div>
+      <div class="Age left-[38px] top-[283px] absolute">
+        <span class="text-[#ffd0d0] text-xl font-medium font-['Poppins']">
+          Age:
+        </span>
+        <span class="text-[#ffd0d0] text-xl font-semibold font-['Poppins']">
+          17
+        </span>
+      </div>
+      <div class="Age left-[38px] top-[322px] absolute">
+        <span class="text-[#ffd0d0] text-xl font-medium font-['Poppins']">
+          Date:
+        </span>
+        <span class="text-[#ffd0d0] text-xl font-semibold font-['Poppins']">
+          26/8/2024
+        </span>
+        <span
+          class="text-[#ffd0d0] text-xl font-medium font-['Poppins']"></span>
+      </div>
+      <div
+        class="Age left-[38px] top-[361px] absolute text-[#ffd0d0] text-xl font-medium font-['Poppins']">
+        Time: 3:00 PM
+      </div>
+      <div
+        class="Submit w-[111px] h-[43.43px] left-[202px] top-[477px] absolute">
+        <div
+          class="Rectangle33 w-[111px] h-[43.43px] left-0 top-0 absolute bg-[#ffff00]/0 rounded-[15px] border-2 border-neutral-100"></div>
+        <a href="/patient/vitals">
+          <div
+            class="SignInCircle w-[14.48px] h-[14.48px] left-[80.88px] top-[15.36px] absolute rounded-[15px] rotate-180">
+            <img src="/static/img/patient_logout_circle.png" />
+          </div>
+          <div
+            class="Vitals w-[62px] h-[22px] left-[12px] top-[10px] absolute text-[#ffd0d0] text-xl font-bold font-['Montserrat']">
+            Vitals
+          </div>
+        </a>
+      </div>
+    </div>
+    <div
+      class="Patient1 w-[350px] h-[560px] left-0 top-0 absolute bg-gradient-to-tr from-[#a73131] to-[#ff0000] rounded-[30px] shadow border-4 border-neutral-100/30">
+      <div
+        class="Submit w-[111px] h-[43.43px] left-[202px] top-[477px] absolute">
+        <div
+          class="Rectangle33 w-[111px] h-[43.43px] left-0 top-0 absolute bg-[#ffff00]/0 rounded-[15px] border-2 border-neutral-100"></div>
+        <a href="/patient/vitals">
+          <div
+            class="SignInCircle w-[14.48px] h-[14.48px] left-[80.88px] top-[15.36px] absolute rounded-[15px] rotate-180">
+            <img src="/static/img/patient_logout_circle.png" />
+          </div>
+          <div
+            class="Vitals w-[62px] h-[22px] left-[12px] top-[10px] absolute text-[#ffd0d0] text-xl font-bold font-['Montserrat']">
+            Vitals
+          </div>
+        </a>
+      </div>
+      <div class="Age left-[38px] top-[283px] absolute">
+        <span class="text-[#ffd0d0] text-xl font-medium font-['Poppins']">
+          Age:
+        </span>
+        <span class="text-[#ffd0d0] text-xl font-semibold font-['Poppins']">
+          16
+        </span>
+      </div>
+      <div class="Age left-[38px] top-[322px] absolute">
+        <span class="text-[#ffd0d0] text-xl font-medium font-['Poppins']">
+          Date:
+        </span>
+        <span class="text-[#ffd0d0] text-xl font-semibold font-['Poppins']">
+          26/8/2024
+        </span>
+        <span
+          class="text-[#ffd0d0] text-xl font-medium font-['Poppins']"></span>
+      </div>
+      <div
+        class="LendrickKumar left-[150px] top-[226px] absolute text-center text-[#ffd0d0] text-2xl font-bold font-['Poppins']">
+        Rex
+      </div>
+      <img
+        class="Lendrick w-[175px] h-[175px] left-[88px] top-[40px] absolute rounded-[200px] shadow"
+        src="/static/img/lendrick_patient.jpg" />
+      <div
+        class="Age left-[38px] top-[361px] absolute text-[#ffd0d0] text-xl font-medium font-['Poppins']">
+        Time: 9:00 AM
+      </div>
+      <div
+        class="Submit w-[111px] h-[43.43px] left-[202px] top-[477px] absolute">
+        <div
+          class="Rectangle33 w-[111px] h-[43.43px] left-0 top-0 absolute bg-[#ffff00]/0 rounded-[15px] border-2 border-neutral-100"></div>
+        <a href="/patient/vitals">
+          <div
+            class="SignInCircle w-[14.48px] h-[14.48px] left-[80.88px] top-[15.36px] absolute rounded-[15px] rotate-180">
+            <img src="/static/img/patient_logout_circle.png" />
+          </div>
+          <div
+            class="Vitals w-[62px] h-[22px] left-[12px] top-[10px] absolute text-[#ffd0d0] text-xl font-bold font-['Montserrat']">
+            Vitals
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

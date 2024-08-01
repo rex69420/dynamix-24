@@ -1,0 +1,21 @@
+{% extends "base.html" %} {% block content %}
+<div class="YourSchedule w-[1920px] h-[1080px] relative bg-neutral-100">
+  <div class="Back w-[184px] h-[72px] left-[58px] top-[813px] absolute">
+    <a href="#" onclick="var c=window.location.href,r=document.referrer;if(history.length>1&&r&&r!==c&&r!==c.split('#')[0]&&r!=='about:blank'){history.go(-1);}else{window.location.href='/';}" class="link">
+    <div
+      class="Rectangle33 w-[184px] h-[72px] left-0 top-0 absolute bg-gradient-to-r from-[#ff0000] to-[#a73131] rounded-[30px]"></div>
+    <div
+      class="Back left-[82px] top-[21px] absolute text-white text-2xl font-bold font-['Montserrat']">
+      Back
+    </div>
+    <div
+      class="SignInCircle w-[33px] h-[33px] left-[30px] top-[21px] absolute origin-top-left rounded-[30px]">
+      <img src="/static/img/patient_logout_circle.png" />
+    </div>
+    </a>
+  </div>
+  <img
+    class="Image11 w-[1134.26px] h-[940px] left-[406px] top-[10px] absolute"
+    src="/static/img/schedule.png" />
+</div>
+{% endblock %}
